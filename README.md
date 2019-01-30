@@ -1,5 +1,5 @@
 # jsdoc
-A [godoc](https://godoc.org) like cli tool for nodejs.
+A [godoc](https://godoc.org) like cli tool for nodejs documentation.
 
 # Installation
 
