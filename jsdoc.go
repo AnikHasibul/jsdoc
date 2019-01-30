@@ -80,6 +80,7 @@ CREATED BY:
  @AnikHasibul`)
 }
 
+// printDoc executes the doc script
 func printDoc(script io.Reader) {
 	cmd := exec.Command("node", "-")
 	cmd.Stdin = script
@@ -90,5 +91,4 @@ func printDoc(script io.Reader) {
 		fmt.Println(err)
 		os.Exit(1)
 	}
-
 }
